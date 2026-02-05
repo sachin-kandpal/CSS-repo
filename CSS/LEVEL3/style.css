@@ -1,0 +1,20 @@
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#box2{
+    height:50px;
+    width: 30%;
+    background-color: yellow;
+    margin: 10%;
+    font-size: 1.5em;
+    /* isme width fontsize ke 10 time hogi jo box 2 ka ha  */
+    width: 10em;
+    /* rem mai apne root tag ke hisaab se relative width set hogi iss case mai hello ke hissab se kyoki sabse root vohi ha  */
+    width: 10rem;
+    /* vh : relative to 1% viewport(browser) height  */
+    /* vw : relative to 1% viewport widt */
+} 

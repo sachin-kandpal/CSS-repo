@@ -1,0 +1,35 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(115, 78, 150);
+    border: 2px solid black;
+    display: inline-block;
+}
+
+body{
+    position: static;
+    /* z index help this element to ntake priority over box2 */
+    /* static mai z index set nhi kar sakte bss */
+    background-image: url("/LEVEL3/nature.jpg");
+    background-size: cover;
+    /* we can also use cover(full img) or auto insted of cover  */
+}
+#box2{
+    position: relative;
+    /* related to itself */
+    top: 10px;
+    right: 10px;
+    z-index: -1;
+    
+}
+#box3{
+    position: absolute;
+    /* related to parent */
+    top: 300px;
+    left: 500px;
+}
+#box4{
+    position: fixed;
+    /* related to browser window */
+    right: 20px;
+}

@@ -1,0 +1,19 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(155, 153, 154);
+    border: 2px solid black;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    /* transform: rotate(45deg); */
+    /* transform:scale(2) ; */
+}
+
+div:hover {
+    /* transform: translate(600px,800px); */
+    transition: all 4s ease-in;
+    transition-delay: 0.3s;
+    transform: skew(180deg);
+
+}

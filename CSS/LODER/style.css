@@ -1,0 +1,19 @@
+*{
+    background-color: rgb(126, 105, 146);
+}
+.Loader{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black ;
+    border-top:5px solid aquamarine ;
+    border-radius: 50%;
+    animation: spin 3s 0.5s infinite normal;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
